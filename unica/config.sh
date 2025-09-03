@@ -18,7 +18,7 @@
 # UN1CA configuration file
 ROM_VERSION="1"
 ROM_VERSION+="-$(git rev-parse --short HEAD)"
-ROM_CODENAME="EquinoX"
+ROM_CODENAME="VentaBlack"
 
 # Source ROM firmware
 case "$TARGET_SINGLE_SYSTEM_IMAGE" in
