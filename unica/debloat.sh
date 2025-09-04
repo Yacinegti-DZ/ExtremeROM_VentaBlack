@@ -59,6 +59,8 @@ app/Photos
 app/YouTube
 overlay/GmsConfigOverlaySearchSelector.apk
 priv-app/SearchSelector
+priv-app/Velvet
+priv-app/Messages
 "
 
 SYSTEM_DEBLOAT+="
@@ -93,6 +95,7 @@ system/app/SimAppDialog
 system/app/Traceur
 system/app/UniversalMDMClient
 system/app/WifiGuider
+system/app/ARCore
 system/etc/default-permissions/default-permissions-com.sec.spp.push.xml
 system/etc/init/digitalkey_init_uwb_tss2.rc
 system/etc/init/samsung_pass_authenticator_service.rc
@@ -155,6 +158,13 @@ system/priv-app/SPPPushClient
 system/priv-app/StickerFaceARAvatar
 system/priv-app/YourPhone_P1_5
 system/priv-app/SamsungSmartSuggestions
+system/priv-app/Bixby
+system/priv-app/BixbyInterpreter
+system/priv-app/BixbyVisionFramework3.5
+system/priv-app/AutoDoodle
+system/priv-app/Routines
+system/priv-app/SemanticSearchCore
+system/priv-app/SamsungIntelliVoiceServices
 "
 
 PRISM_DEBLOAT+="
